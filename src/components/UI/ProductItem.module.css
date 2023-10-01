@@ -1,0 +1,15 @@
+.item {
+  border-radius: 5px;
+  overflow: hidden;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.item:hover img {
+  opacity: 0.7;
+}
+
+.item .item-name,
+.item .item-price {
+  text-align: center;
+}

@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-style: oblique !important;
+  position: relative;
+}
+
+.container {
+  max-width: 1400px;
+  margin: auto;
+}
+
+.container-fluid {
+  width: 100%;
+}
+
+.rows {
+  display: flex;
+}
+
+.btn-page {
+  background-color: #383838 !important;
+  border: none;
+  border-radius: 0 !important;
+  color: white !important;
+  font-style: oblique;
+  font-weight: 400;
+}
+
+section.shop {
+  padding: 3rem 0;
+}
+
+ul {
+  list-style: none;
+}
+
+td,
+th {
+  border-bottom: none !important;
+}
+
+.active {
+  color: #f6d574 !important;
+}
+
+a,
+.nav-item,
+.btn-page,
+li,
+i {
+  transition: all 0.2s;
+  text-decoration: none !important;
+}
+
+a:hover,
+.nav-item:hover,
+.btn-page:hover,
+li:hover,
+button:hover {
+  color: #f6d574 !important;
+}
+
+.not:hover {
+  color: unset !important;
+}
+
+@media screen and (max-width: 991.98px) {
+  a.navbar-brand {
+    position: static !important;
+    transform: translate(0) !important;
+  }
+}

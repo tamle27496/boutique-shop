@@ -1,0 +1,35 @@
+.bg-image {
+  background-image: url("../../../public/images/banner1.jpg");
+  background-size: cover;
+  background-position: right;
+}
+
+.form-input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.25rem;
+}
+
+.input {
+  padding: 1.25rem;
+  border: 1px solid gainsboro;
+  border-bottom: none;
+}
+
+.input:last-child {
+  border-bottom: 1px solid gainsboro;
+}
+
+.input::placeholder {
+  font-weight: 500;
+}
+
+.form-button {
+  margin-bottom: 3rem;
+}
+
+.form-button button {
+  padding: 1rem;
+  font-style: normal;
+  text-transform: uppercase;
+}

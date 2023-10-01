@@ -1,0 +1,19 @@
+.category ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.category li,
+.category h3 {
+  padding: 1rem 1.25rem;
+}
+
+.active-li {
+  color: #f6d574;
+}
+
+.category h3 {
+  padding-top: 0;
+  padding-left: 0;
+  text-transform: uppercase;
+}
